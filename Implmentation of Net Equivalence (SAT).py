@@ -188,7 +188,7 @@ def solvecnf(solvestack, revlist, reclst, inputs1, inputs2, outputs1, outputs2, 
 			
 			
 #	print("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-	::::::::::::::::::::::\n")
+#	::::::::::::::::::::::\n")
 	
 			opint(reclst, inputs1, inputs2, outputs1, outputs2, mapping1, mapping2,kvpr)
 			sys.exit()
