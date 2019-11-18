@@ -596,7 +596,7 @@ def	cnf(allgatestack, inputs):
 			in2 = finkey[1]
 			op = finkey[2]
 			print('or gate found')
-			0r1 = "-{0},{2}".format(in1, in2, op)
+			or1 = "-{0},{2}".format(in1, in2, op)
 			org = or1.split(",")
 			solvelst.append(org)
 			or2 = "-{1},{2}".format(in1, in2, op)
