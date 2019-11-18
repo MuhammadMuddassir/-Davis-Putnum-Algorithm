@@ -409,21 +409,21 @@ def xor5lit(mapping1, mapping2, kvpr, outputs1, outputs2):
 	cxr6 = cxr5 + 1
 	xorop6.append(cxr6)
 	print('gates from the lit margin', xorop6)
-	print('list for output1:::::', outputs1, '........... and its mapping1 is >>>>, mapping1)
-	print('list for output2:::::', outputs2, '........... and its mapping2 is >>>>, mapping2)
+	print('list for output1:::::', outputs1, '........... and its mapping1 is >>>>', mapping1)
+	print('list for output2:::::', outputs2, '........... and its mapping2 is >>>>', mapping2)
  
 	for z in outputs1:
 		if z in mapping1:
 		kg1 = mapping1.get(z,'none')
 		qlit1.append(kg1)
-		print('the q1 is ::, qlit1)
+		print('the q1 is ::', qlit1)
 		
 	for v ion output2:
 		if v in mapping2:
 		kg2 = mapping2.get(v,'none')
 		kgf = kg2[1]
 		qlit2.append(kgf)
-		print('the q2 is ::, qlit2)
+		print('the q2 is ::', qlit2)
 
 	i = 0
 	while(len(qlit1 and qlit2) > 0):
