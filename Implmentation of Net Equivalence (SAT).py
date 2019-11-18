@@ -764,18 +764,3 @@ def	cnf(allgatestack, inputs):
 
 if__name__ == '__main__'
     litrcrtn()
-						
-
-
-
-
-
-
-
-
-
-
-
-
-			
-	
