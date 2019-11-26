@@ -15,7 +15,7 @@
 	
 ## Technologies
 Project is created with:
-* Python version: 3.4
+* Python version: 3.6
 	
 ## Setup
 To run this project, install it locally using python
